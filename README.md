@@ -17,7 +17,7 @@ Please follow the installation and dependency setup as described in the original
 The experimental pipeline includes the following key stages, with associated scripts and tools:
 
 ### 1. Audio Segmentation
-- Extract audio: [`mp4_to_wav`](DiffSinger/user_script/00_audio/mp4_to_wav.py)
+- Extract audio: [`mp4_to_wav`](/user_script/00_audio/mp4_to_wav.py)
 - Clean audio: [fishaudio preprocess tools](https://github.com/fishaudio/audio-preprocess)
 - Auto-slice: [AudioSlicer](https://github.com/openvpi/audio-slicer)
 - Manual adjustment (optional): [`slice_audio`, `trim_audio`](user_script/00_audio)
