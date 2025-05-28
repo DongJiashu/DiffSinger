@@ -87,10 +87,11 @@ The following repositories are used as part of the data preparation and evaluati
 - [OpenVPI/MakeDiffSinger](https://github.com/openvpi/MakeDiffSinger) – Data preprocessing utilities
 - [OpenVPI/SOME](https://github.com/openvpi/SOME) – Note duration extraction
 - [fishaudio/audio-preprocess](https://github.com/fishaudio/audio-preprocess) – Audio cleaning and Whisper-based lyric transcription
-- [PHOIBLE](https://github.com/phoible/dev)
+- [PHOIBLE](https://github.com/phoible/dev) - Phoible phonological feature database
 - [Montreal Forced Aligner (MFA)](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) – Phoneme-level alignment
 - [Vlabeler](https://github.com/sdercolin/vlabeler) -manual phoneme-level alignment
 - [colstone/ENG_dur_num](https://github.com/colstone/ENG_dur_num) – Duration-number mapping utilities
+- [GTSinger](https://github.com/AaronZ345/GTSinger) - Dataset 
 
 ## Disclaimer
 
