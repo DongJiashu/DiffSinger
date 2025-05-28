@@ -1,0 +1,1 @@
+vowels=a aj aw aː eː iː oː øː œ ɐ ɔ ɔʏ ə ɛ ɪ ʊ uː

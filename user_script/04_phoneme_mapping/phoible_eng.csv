@@ -1,0 +1,371 @@
+InventoryID,Glottocode,ISO6393,LanguageName,SpecificDialect,GlyphID,Phoneme,Allophones,Marginal,SegmentClass,Source,tone,stress,syllabic,short,long,consonantal,sonorant,continuant,delayedRelease,approximant,tap,trill,nasal,lateral,labial,round,labiodental,coronal,anterior,distributed,strident,dorsal,high,low,front,back,tense,retractedTongueRoot,advancedTongueRoot,periodicGlottalSource,epilaryngealSource,spreadGlottis,constrictedGlottis,fortis,lenis,raisedLarynxEjective,loweredLarynxImplosive,click
+160,stan1293,eng,English,NA,0062,b,bⁿ p͉ b̚ b b,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0064,d,t͉ dˡ d̪ dⁿ ɖ d dz d̚ d,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0064+0320+0292,d̠ʒ,d̠ʒ t̠ʃ͉ d̠ʒ,NA,consonant,spa,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0066,f,f,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0068,h,h ç ɦ,NA,consonant,spa,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+160,stan1293,eng,English,NA,006A,j,j̥ j,NA,consonant,spa,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,006B+02B0,kʰ,kⁿ k ˀk kʰ k̚,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+160,stan1293,eng,English,NA,006C,l,ɭ l̩ˠ lˠ l̥ l l̪ˠ,NA,consonant,spa,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,006D,m,ɱ m̩ m,NA,consonant,spa,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,006E,n,n̩ n̪ ɳ n,NA,consonant,spa,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0070+02B0,pʰ,pʰ p̚ p ˀp pⁿ,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0073,s,s,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0074+02B0,tʰ,ts tˡ ˀt t̚ tʰ tʰ ʈ tⁿ t̪ t,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0074+0320+0283,t̠ʃ,t̠ʃ ˀt̠ʃ,NA,consonant,spa,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0076,v,v f͉ ʋ v,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0077,w,w w,NA,consonant,spa,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0078,x,x,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,007A,z,z z s͉,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,00F0,ð,ð̞ ð θ͉ ð,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,014B,ŋ,ŋ̩ ŋ,NA,consonant,spa,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0261,ɡ,ɡⁿ k͉ ɡ̚ ɡ ɡ,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,027B,ɻ,ʐ͇ ɾ ɻ̥ ɻ,NA,consonant,spa,0,-,-,-,-,+,+,+,0,+,-,-,-,-,-,0,0,+,-,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0283,ʃ,ʃ,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,028D,ʍ,ʍ ʍ,NA,consonant,spa,0,-,-,-,-,-,-,+,+,-,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,-,-,+,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0292,ʒ,ʃ͉ ʒ,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0294,ʔ,ʔ ʔ,NA,consonant,spa,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,+,-,-,-,-,-
+160,stan1293,eng,English,NA,03B8,θ,θ,NA,consonant,spa,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+160,stan1293,eng,English,NA,0061+02D0,aː,a aː aː,NA,vowel,spa,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0065+031E,e̞,ɛ e̞,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0069+02D0,iː,i ɪi iː,NA,vowel,spa,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,006F+031E+02D0,o̞ː,o̞ː o̞ː o̞,NA,vowel,spa,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0075+02D0,uː,uː ʊu u,NA,vowel,spa,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,00E6,æ,æ æː,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0250,ɐ,ɐ ɐ a̟,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0252,ɒ,ɒ,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0254,ɔ,ɔ,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0259,ə,ɜ ə ə ə,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,0259+02D0,əː,əː əː,NA,vowel,spa,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,026A,ɪ,ɪ,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+160,stan1293,eng,English,NA,028A,ʊ,ʊ,NA,vowel,spa,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0062,b,b b̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0064,d,d d̥ ɾ dɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0064+0320+0292,d̠ʒ,d̠ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0066,f,f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0068,h,h,FALSE,consonant,ph,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,006A,j,j,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,006B+02B0,kʰ,kʰ k,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,006C,l,l ɫ lɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,006D,m,m,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,006E,n,n ɾ nɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0070+02B0,pʰ,pʰ p,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0073,s,s,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0074+02B0,tʰ,tʰ t ɾ tʰɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0074+0320+0283,t̠ʃ,t̠ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0076,v,v,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0077,w,w,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,007A,z,z,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,00F0,ð,ð,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,014B,ŋ,ŋ,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0261,ɡ,ɡ ɡ̥̊,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0279,ɹ,ɹ,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0283,ʃ,ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0292,ʒ,ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,03B8,θ,θ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0061+026A,aɪ,aɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-","-,+",-,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0061+028A,aʊ,aʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+","+,-",-,"-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0065+026A+032F,eɪ̯,eɪ̯ eɪ,FALSE,vowel,ph,0,-,"+,-",-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,+,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0069+026A,iɪ,iɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,006F+028A,oʊ,oʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,"-,+",-,-,+,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0075+02D0,uː,uː ʉː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,00E6,æ,æ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0251,ɑ,ɑ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0254+026A,ɔɪ,ɔɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,0259,ə,ə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,025A+02D0,ɚː,ɚː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,+,+,+,+,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,025B,ɛ,ɛ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,026A,ɪ,ɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,028A,ʊ,ʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2175,stan1293,eng,English (American),Western and Mid-Western US; Southern California,028C,ʌ,ʌ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0062,b,b b̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0064,d,d d̥ ɾ dɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0064+0320+0292,d̠ʒ,d̠ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0066,f,f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0068,h,h,FALSE,consonant,ph,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,006A,j,j,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,006B+02B0,kʰ,kʰ k,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,006C,l,l ɫ lɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,006D,m,m,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,006E,n,n ɾ nɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0070+02B0,pʰ,pʰ p,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0073,s,s,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0074+02B0,tʰ,tʰ t ɾ tʰɪ̯,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0074+0320+0283,t̠ʃ,t̠ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0076,v,v,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0077,w,w,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,007A,z,z,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,00F0,ð,ð,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,014B,ŋ,ŋ,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0261,ɡ,ɡ ɡ̥̊,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0279,ɹ,ɹ,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0283,ʃ,ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0292,ʒ,ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,03B8,θ,θ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2176,stan1293,eng,American English,Southeastern Michigan,0061+026A,aɪ,aɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-","-,+",-,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0061+028A,aʊ,aʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+","+,-",-,"-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0065+0069,ei,ei e,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0069,i,i,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,006F+028A,oʊ,oʊ o,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,"-,+",-,-,+,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0075,u,u,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,00E6,æ,æ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0251,ɑ,ɑ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0254,ɔ,ɔ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,0254+026A,ɔɪ,ɔɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,025A,ɚ,ɚ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,+,+,+,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,025B,ɛ,ɛ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,026A,ɪ,ɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,028A,ʊ,ʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2176,stan1293,eng,American English,Southeastern Michigan,028C,ʌ,ʌ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0062,b,b bⁿ bˡ b̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0064,d,d ɾ dʔ dⁿ dˡ d̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0064+0320+0292,d̠ʒ,d̠ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0066,f,f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0068,h,h,FALSE,consonant,ph,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,006A,j,j j̊,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,006B,k,k ʃ ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,006B+02B0,kʰ,kʰ kʰ k̚ kⁿ kˡ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,006C,l,l ɫ ʊ l̥ l̩,FALSE,consonant,ph,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,006D,m,m m̩,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,006E,n,n n̩,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0070+02B0,pʰ,pʰ p p̚ pⁿ pˡ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0073,s,s,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0074+02B0,tʰ,tʰ t t̚ ɾ tʔ ʔ tⁿ tˡ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0074+0320+0283,t̠ʃ,t̠ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0076,v,v,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0077,w,w,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,007A,z,z z̥,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,00F0,ð,ð,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,014B,ŋ,ŋ ŋ̩,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0261,ɡ,ɡ ɡⁿ ɡˡ ɡ̊,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0279,ɹ,ɹ ɹ̥,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0283,ʃ,ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0292,ʒ,ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,03B8,θ,θ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2177,stan1293,eng,English (Australian),NA,0065,e,e e̞,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0065+02D0,eː,eː eːɐ,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0069+02D0,iː,iː ə̯iː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,006F+026A,oɪ,oɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-","+,-",-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,006F+02D0,oː,oː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,00E6,æ,æ æ̝,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,00E6+0254,æɔ,æɔ æ̟̝ɔ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,-,"+,-","+,-","-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,00E6+026A,æɪ,æɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-",+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0250,ɐ,ɐ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0250+02D0,ɐː,ɐː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0251+0065,ɑe,ɑe ɑ̠e,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,"+,-","-,+","+,-",+,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0254,ɔ,ɔ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0259+0289,əʉ,əʉ ɔu,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+",-,-,-,"-,+",-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,025C+02D0,ɜː,ɜː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,026A,ɪ,ɪ ə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,026A+0259,ɪə,ɪə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"+,-",-,"+,-",-,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,0289+02D0,ʉː,ʉː ʉ̠ː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,028A,ʊ,ʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2177,stan1293,eng,English (Australian),NA,028A+0259,ʊə,ʊə,TRUE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"+,-",-,-,"+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0062,b,b β b̥ β̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0064,d,d d̥ θ ð,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0064+0320+0292,d̠ʒ,d̠ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0066,f,f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0068,h,h,FALSE,consonant,ph,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,006A,j,j,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,006B+02B0,kʰ,kʰ k kx x χ ç,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,006C,l,l,FALSE,consonant,ph,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,006D,m,m,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,006E,n,n ŋ,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0070+02B0,pʰ,pʰ p ɸ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0073,s,s,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0074+02B0,tʰ,tʰ t ts θ ð h ʰsʰ ɹ ɾ ʔ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0074+0320+0283,t̠ʃ,t̠ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0076,v,v,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0077,w,w,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,007A,z,z z̥,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,00F0,ð,ð d̪ v ð̥,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,014B,ŋ,ŋ,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0261,ɡ,ɡ ɡ̊ ɣ ɣ̊,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0279,ɹ,ɹ ɾ,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0283,ʃ,ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0292,ʒ,ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,03B8,θ,θ t̪ f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2178,stan1293,eng,English (British),Liverpool,0061,a,a ɑː,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0061+026A,aɪ,aɪ aː,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-","-,+",-,-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0061+028A,aʊ,aʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+","+,-",-,"-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0065+026A,eɪ,eɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,+,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0065+02D0,eː,eː ɛː ɜː ɪː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0069+02D0,iː,iː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0251+02D0,ɑː,ɑː aː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0252,ɒ,ɒ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0254+026A,ɔɪ,ɔɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0254+02D0,ɔː,ɔː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0259,ə,ə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,025B,ɛ,ɛ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,025B+0289,ɛʉ,ɛʉ eʊ ɛʊ əʉ eʉ əʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+",-,"+,-",-,"-,+",-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,026A,ɪ,ɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,0289+02D0,ʉː,ʉː y,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2178,stan1293,eng,English (British),Liverpool,028A,ʊ,ʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0062,b,b,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0064,d,d,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0064+0320+0292,d̠ʒ,d̠ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0066,f,f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0068,h,h,FALSE,consonant,ph,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,006A,j,j ç,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,006B+0078,kx,kx kʰ kʔ ʔk ʔ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,006C,l,l ɫ ɯ,FALSE,consonant,ph,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,006D,m,m,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,006E,n,n,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0070+02B0,pʰ,pʰ p pʔ ʔp ʔ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0073,s,s,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0074+0073,ts,ts tʰ ɾ t tʔ ʔt ʔ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0074+0320+0283,t̠ʃ,t̠ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0076,v,v,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0077,w,w β̞ ʍ,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,007A,z,z,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,00F0,ð,ð,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,014B,ŋ,ŋ,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0261,ɡ,ɡ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0279,ɹ,ɹ ɾ z s ʋ,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0283,ʃ,ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0292,ʒ,ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,03B8,θ,θ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2179,stan1293,eng,English (New Zealand),Pākehā,0065,e,e,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0065+0259,eə,eə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,"+,-",-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0069,i,i,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0069+0259,iə,iə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"+,-",-,"+,-",-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0069+02D0,iː,iː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,006F+0065,oe,oe,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,-,-,"-,+","+,-",+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,006F+02D0,oː,oː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,00E6+0065,æe,æe,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,"+,-",+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,00E6+006F,æo,æo,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,-,"+,-","+,-","-,+",+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0250,ɐ,ɐ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0250+0289,ɐʉ,ɐʉ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,"-,+","+,-",-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0250+02D0,ɐː,ɐː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0251+0065,ɑe,ɑe,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,"+,-","-,+","+,-",+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0252,ɒ,ɒ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0252+026F,ɒɯ,ɒɯ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+","+,-",-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0258,ɘ,ɘ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,025B,ɛ,ɛ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0275+02D0,ɵː,ɵː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0289+0259,ʉə,ʉə,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"+,-",-,-,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,0289+02D0,ʉː,ʉː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2179,stan1293,eng,English (New Zealand),Pākehā,028A,ʊ,ʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0062,b,b b̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0064,d,d ð d̥,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0064+0320+0292,d̠ʒ,d̠ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0066,f,f,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0068,h,h,FALSE,consonant,ph,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),006A,j,j,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),006B,k,k kʰ kʔ ʔk ɡ̰ k̃ ʰk,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),006C,l,l ɫ ʋ,FALSE,consonant,ph,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),006D,m,m,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),006E,n,n,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0070+02B0,pʰ,pʰ p pʔ ʔp b̰ p̃ ʰp,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0073,s,s,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0074+02B0,tʰ,tʰ t tʔ ʔt d̰ t̃ ʔ t̚ tʰ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0074+0320+0283,t̠ʃ,t̠ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0076,v,v,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0077,w,w,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),007A,z,z,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),00F0,ð,ð,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),014B,ŋ,ŋ,FALSE,consonant,ph,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0261,ɡ,ɡ̊ ɡ,FALSE,consonant,ph,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0279,ɹ,ɹ ʋ w ʔ,FALSE,consonant,ph,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0283,ʃ,ʃ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0292,ʒ,ʒ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),03B8,θ,θ,FALSE,consonant,ph,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0061,a,a,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0061+02D0,aː,aː,TRUE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0065+02D0,eː,eː ɪə eɪ,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0069+02D0,iː,iː ei,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),006F+02D0,oː,oː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0075+02D0,uː,uː ʉ ɵʊ,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),00F8+02D0,øː,øː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0252,ɒ,ɒ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0252+02D0,ɒː,ɒː ɑː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0254+02D0,ɔː,ɔː øː ɪː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),0259,ə,ə ɐ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),025B,ɛ,ɛ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),025B+02D0,ɛː,ɛː,FALSE,vowel,ph,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),026A,ɪ,ɪ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2180,stan1293,eng,English (British),Tyneside English (spoken in Newcastle),028A,ʊ,ʊ,FALSE,vowel,ph,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0062,b,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0064,d,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0064+0320+0292,d̠ʒ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0066,f,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0068,h,NA,FALSE,consonant,ea,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),006A,j,NA,FALSE,consonant,ea,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),006B+02B0,kʰ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),006C,l,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),006D,m,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),006E,n,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0070+02B0,pʰ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0073,s,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0074+02B0,tʰ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0074+0320+0283,t̠ʃ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0076,v,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0077,w,NA,FALSE,consonant,ea,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),007A,z,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),00F0,ð,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),014B,ŋ,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0261,ɡ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0279,ɹ,NA,FALSE,consonant,ea,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,+,-,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0283,ʃ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0292,ʒ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),03B8,θ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2252,stan1293,eng,English,English (RP),0061+026A,aɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-","-,+",-,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0061+028A,aʊ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+","+,-",-,"-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0065,e,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0065+0259,eə,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,"+,-",-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0065+026A,eɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,+,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0069+02D0,iː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0075+02D0,uː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),00E6,æ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0251+02D0,ɑː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0252,ɒ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0254+026A,ɔɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0254+02D0,ɔː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0259,ə,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),0259+028A,əʊ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+",-,-,"-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),025C+02D0,ɜː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),026A,ɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),026A+0259,ɪə,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"+,-",-,"+,-",-,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),028A,ʊ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),028A+0259,ʊə,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"+,-",-,-,"+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2252,stan1293,eng,English,English (RP),028C,ʌ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0062,b,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0064,d,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0064+0320+0292,d̠ʒ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0066,f,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0068,h,NA,FALSE,consonant,ea,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),006A,j,NA,FALSE,consonant,ea,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),006B,k,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),006C,l,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),006D,m,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),006E,n,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0070,p,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0072,r,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,+,0,+,-,+,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0073,s,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0074,t,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0074+0320+0283,t̠ʃ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0076,v,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0077,w,NA,FALSE,consonant,ea,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),007A,z,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),00F0,ð,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),014B,ŋ,NA,FALSE,consonant,ea,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0261,ɡ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0283,ʃ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0292,ʒ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),03B8,θ,NA,FALSE,consonant,ea,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+2515,stan1293,eng,English,English (Liverpool),0061,a,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0061+026A,aɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-","-,+",-,-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0061+028A,aʊ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+","+,-",-,"-,+",-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0065+026A,eɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,+,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0065+02D0,eː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0069+025B,iɛ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"+,-",-,+,-,"+,-",-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0069+02D0,iː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0251+02D0,ɑː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0252,ɒ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0254+026A,ɔɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-",-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0259,ə,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),025B,ɛ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),025B+0289,ɛʉ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+",-,"+,-",-,"-,+",-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),026A,ɪ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),0289+02D0,ʉː,NA,FALSE,vowel,ea,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,-,+,-,-,+,-,-,-,0,0,-,-,0
+2515,stan1293,eng,English,English (Liverpool),028A,ʊ,NA,FALSE,vowel,ea,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
