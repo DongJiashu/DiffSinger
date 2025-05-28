@@ -1,53 +1,65 @@
-# DiffSinger (OpenVPI maintained version)
+## About this Repository
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)
-[![downloads](https://img.shields.io/github/downloads/openvpi/DiffSinger/total.svg)](https://github.com/openvpi/DiffSinger/releases)
-[![Bilibili](https://img.shields.io/badge/Bilibili-Demo-blue)](https://www.bilibili.com/video/BV1be411N7JA/)
-[![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/openvpi/DiffSinger/blob/main/LICENSE)
+This repository is part of my master's thesis project. It is based on the official [OpenVPI DiffSinger](https://github.com/openvpi/DiffSinger) implementation.
 
-This is a refactored and enhanced version of _DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism_ based on the original [paper](https://arxiv.org/abs/2105.02446) and [implementation](https://github.com/MoonInTheRiver/DiffSinger), which provides:
+In addition to reproducing and adapting the core DiffSinger model, this repo includes all scripts and resources used throughout my research pipeline. These include external tools, dependent repositories, and custom scripts located in the `user_script/` directory. While the main singing voice synthesis model comes from OpenVPI's DiffSinger, the end-to-end workflow and data processing were extended to suit the needs of my thesis experiments.
 
-- Cleaner code structure: useless and redundant files are removed and the others are re-organized.
-- Better sound quality: the sampling rate of synthesized audio are adapted to 44.1 kHz instead of the original 24 kHz.
-- Higher fidelity: improved acoustic models and diffusion sampling acceleration algorithms are integrated.
-- More controllability: introduced variance models and parameters for prediction and control of pitch, energy, breathiness, etc.
-- Production compatibility: functionalities are designed to match the requirements of production deployment and the SVS communities.
+### Thesis Topic
 
-|                                       Overview                                        |                                    Variance Model                                     |                                    Acoustic Model                                     |
-|:-------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| <img src="docs/resources/arch-overview.jpg" alt="arch-overview" style="zoom: 60%;" /> | <img src="docs/resources/arch-variance.jpg" alt="arch-variance" style="zoom: 50%;" /> | <img src="docs/resources/arch-acoustic.jpg" alt="arch-acoustic" style="zoom: 60%;" /> |
+This work explores phoneme-mapped cross-lingual transfer learning for singing voice synthesis (SVS), focusing on adapting an English-trained DiffSinger model to German using minimal target-language data. We focus on the **acoustic model** (not the variance model), and investigate how data quality—particularly accent, vocal range, and recording conditions—impacts low-resource SVS performance.
 
-## User Guidance
+### Installation
 
-> 中文教程 / Chinese Tutorials: [Text](https://openvpi-docs.feishu.cn/wiki/KmBFwoYDEixrS4kHcTAcajPinPe), [Video](https://space.bilibili.com/179281251/channel/collectiondetail?sid=1747910)
+Please follow the installation and dependency setup as described in the original [DiffSinger repository](https://github.com/openvpi/DiffSinger). This fork maintains compatibility with the upstream environment and training pipeline.
 
-- **Installation & basic usages**: See [Getting Started](docs/GettingStarted.md)
-- **Dataset creation pipelines & tools**: See [MakeDiffSinger](https://github.com/openvpi/MakeDiffSinger)
-- **Best practices & tutorials**: See [Best Practices](docs/BestPractices.md)
-- **Editing configurations**: See [Configuration Schemas](docs/ConfigurationSchemas.md)
-- **Deployment & production**: [OpenUTAU for DiffSinger](https://github.com/xunmengshe/OpenUtau), [DiffScope (under development)](https://github.com/openvpi/diffscope)
-- **Communication groups**: [QQ Group](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=fibG_dxuPW5maUJwe9_ya5-zFcIwaoOR&authKey=ZgLCG5EqQVUGCID1nfKei8tCnlQHAmD9koxebFXv5WfUchhLwWxb52o1pimNai5A&noverify=0&group_code=907879266) (907879266), [Discord server](https://discord.gg/wwbu2JUMjj)
+## Workflow Overview
 
-## Progress & Roadmap
+The experimental pipeline includes the following key stages, with associated scripts and tools:
 
-- **Progress since we forked into this repository**: See [Releases](https://github.com/openvpi/DiffSinger/releases)
-- **Roadmap for future releases**: See [Project Board](https://github.com/orgs/openvpi/projects/1)
-- **Thoughts, proposals & ideas**: See [Discussions](https://github.com/openvpi/DiffSinger/discussions)
+### 1. Audio Segmentation
+- Extract audio: [`mp4_to_wav`](user_script/00_audio/mp4_to_wav.py)
+- Clean audio: [fishaudio preprocess tools](https://github.com/fishaudio/audio-preprocess)
+- Auto-slice: [AudioSlicer](https://github.com/openvpi/audio-slicer)
+- Manual adjustment (optional): [`slice_audio`, `trim_audio`](user_script/00_audio)
 
-## Architecture & Algorithms
+### 2. Lyrics Annotation
+- Automatic transcription: [Whisper via fishaudio](https://github.com/fishaudio/audio-preprocess)
+- Manual annotation (optional): [`lyrics_to_lab`, `check_lab`](user_script/01_lyric)
 
-TBD
+### 3. Corpus Construction (optional)
+- Convert GT-Singer format to DiffSinger format: [`convert`, `cleanup`](user_script/02_corpus)
+- Select wavs by target duration: [`filter_by_duration`](user_script/02_corpus)
+- Calculate total corpus length: [`calculate_duration`](user_script/02_corpus)
+- Clean up folder: [`clean up folder`](user_script/02_corpus)
 
-## Development Resources
+### 4. Phonetic Dictionary Update
+- Check and fill missing words in lexicon: [`check_lexicon`](user_script/03_dictionary)
 
-TBD
+### 5. Phoneme Alignment (MFA)
+- Alignment using [Montreal Forced Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner)
+
+### 6. Phoneme Mapping (Cross-lingual Transfer)
+- Phoneme-to-phoneme mapping via IPA & PHOIBLE: [`phoneme_mapping`](user_script/04_phoneme_mapping/)
+
+### 7. Inference Stimuli Preparation
+- ph num english: [colstone/ENG_dur_num](https://github.com/colstone/ENG_dur_num) 
+- ph num german switch this file: [`dur_num_dict.txt`](user_script/05_stimuli/dur_num_dict.txt)
+- Note sequence: [OpenVPI/SOME](https://github.com/openvpi/SOME)
+- f0 and time-step: [OpenVPI MakeDiffSinger](https://github.com/openvpi/MakeDiffSinger)
+- Combine multiple ds files (optional): [`combine_ds.py`](user_script/05_stimuli)
+
+### 8. Objective Evaluation
+- FFE & MCD: [`user_script/06_objective_evaluation/FFE&MCD/`](user_script/06_objective_evaluation/FFE&MCD/)
+- Intelligibility transcription (Whisper): [fishaudio transcribe](https://github.com/fishaudio/audio-preprocess)
+- Word Error Rate (WER): [`run_wer_eval.py`](user_script/06_objective_evaluation/Intelligibility/run_wer_eval.py)
+
 
 ## References
 
 ### Original Paper & Implementation
 
 - Paper: [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446)
-- Implementation: [MoonInTheRiver/DiffSinger](https://github.com/MoonInTheRiver/DiffSinger)
+- Implementation: [OpenVPI/DiffSinger](https://github.com/openvpi/DiffSinger)
 
 ### Generative Models & Algorithms
 
@@ -66,6 +78,17 @@ TBD
 - [RMVPE](https://github.com/Dream-High/RMVPE) and yxlllc's [fork](https://github.com/yxlllc/RMVPE) for pitch extraction
 - [Vocal Remover](https://github.com/tsurumeso/vocal-remover) and yxlllc's [fork](https://github.com/yxlllc/vocal-remover) for harmonic-noise separation
 
+### External Tools and Related Repositories
+
+The following repositories are used as part of the data preparation and evaluation pipeline described in the Workflow Overview:
+
+- [OpenVPI/AudioSlicer](https://github.com/openvpi/audio-slicer) – Automatic audio slicing
+- [OpenVPI/MakeDiffSinger](https://github.com/openvpi/MakeDiffSinger) – Data preprocessing utilities
+- [OpenVPI/SOME](https://github.com/openvpi/SOME) – Note duration extraction
+- [fishaudio/audio-preprocess](https://github.com/fishaudio/audio-preprocess) – Audio cleaning and Whisper-based lyric transcription
+- [Montreal Forced Aligner (MFA)](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) – Phoneme-level alignment
+- [colstone/ENG_dur_num](https://github.com/colstone/ENG_dur_num) – Duration-number mapping utilities
+
 ## Disclaimer
 
 Any organization or individual is prohibited from using any functionalities included in this repository to generate someone's speech without his/her consent, including but not limited to government leaders, political figures, and celebrities. If you do not comply with this item, you could be in violation of copyright laws.
@@ -73,4 +96,3 @@ Any organization or individual is prohibited from using any functionalities incl
 ## License
 
 This forked DiffSinger repository is licensed under the [Apache 2.0 License](LICENSE).
-
