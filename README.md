@@ -36,7 +36,8 @@ The experimental pipeline includes the following key stages, with associated scr
 - Check and fill missing words in lexicon: [`check_lexicon`](user_script/03_dictionary)
 
 ### 5. Phoneme Alignment (MFA)
-- Alignment using [Montreal Forced Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner)
+- Automatic Alignment using [Montreal Forced Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner)
+- Manual Alignmeny using [Vlabeler](https://github.com/sdercolin/vlabeler)
 
 ### 6. Phoneme Mapping (Cross-lingual Transfer)
 - Phoneme-to-phoneme mapping via IPA & PHOIBLE: [`phoneme_mapping`](user_script/04_phoneme_mapping/)
@@ -86,7 +87,9 @@ The following repositories are used as part of the data preparation and evaluati
 - [OpenVPI/MakeDiffSinger](https://github.com/openvpi/MakeDiffSinger) – Data preprocessing utilities
 - [OpenVPI/SOME](https://github.com/openvpi/SOME) – Note duration extraction
 - [fishaudio/audio-preprocess](https://github.com/fishaudio/audio-preprocess) – Audio cleaning and Whisper-based lyric transcription
+- [PHOIBLE](https://github.com/phoible/dev)
 - [Montreal Forced Aligner (MFA)](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) – Phoneme-level alignment
+- [Vlabeler](https://github.com/sdercolin/vlabeler) -manual phoneme-level alignment
 - [colstone/ENG_dur_num](https://github.com/colstone/ENG_dur_num) – Duration-number mapping utilities
 
 ## Disclaimer
