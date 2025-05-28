@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiffSinger SVS Demo - Master's Thesis Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6a11cb;
+            --secondary-color: #2575fc;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --accent-color: #ff7e5f;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background-attachment: fixed;
+        }
+        
+        header {
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--dark-color);
+        }
+        
+        h1 {
+            margin-top: 0;
+            font-size: 2.2rem;
+            color: white;
+        }
+        
+        .contact {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 0.8rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .intro {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .audio-group {
+            margin-bottom: 3rem;
+            background-color: white;
+            padding: 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .audio-container {
+            padding: 1.5rem;
+        }
+        
+        .audio-container:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .audio-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 8px 0;
+        }
+        
+        .audio-label {
+            width: 220px;
+            font-weight: 600;
+            margin-right: 15px;
+            color: var(--dark-color);
+        }
+        
+        audio {
+            flex-grow: 1;
+            max-width: 600px;
+            height: 40px;
+        }
+        
+        .group-title {
+            background: linear-gradient(to right, var(--dark-color), #4a6b8a);
+            color: white;
+            padding: 12px 20px;
+            margin: 0;
+            font-size: 1.3rem;
+        }
+        
+        .model-descriptions {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .model-descriptions h2 {
+            margin-top: 0;
+        }
+        
+        .model-descriptions ul {
+            padding-left: 20px;
+        }
+        
+        .model-descriptions li {
+            margin-bottom: 8px;
+        }
+
+        .lyrics {
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #f0f4f8;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            border-left: 3px solid var(--secondary-color);
+        }
+
+        .lyrics-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: var(--dark-color);
+        }
+        
+        @media (max-width: 768px) {
+            .audio-row {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .audio-label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            
+            audio {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DiffSinger Singing Voice Synthesis Demo</h1>
+        <p>Master's Thesis Project: Cross-Lingual Transfer Learning for SVS</p>
+        <div class="contact">Contact: jiashu.dong28@gmail.com</div>
+    </header>
+    
+    <div class="intro">
+        <p>This repository demo is part of my master's thesis project. It is based on the official OpenVPI DiffSinger implementation. This work explores phoneme-mapped cross-lingual transfer learning for singing voice synthesis (SVS), focusing on adapting an English-trained DiffSinger model to German using minimal target-language data. We focus on the acoustic model and investigate how data quality—particularly accent, vocal range, and recording conditions—impacts low-resource SVS performance.</p>
+    </div>
+    
+    <div class="audio-group">
+        <h2 class="group-title">Group 1: Pure Vocals (A Capella)</h2>
+        
+        <div class="audio-container">
+            <h3>Sample 1</h3>
+            <div class="audio-row">
+                <span class="audio-label">Ground Truth</span>
+                <audio controls src="./samples/gt_wer_bin_ich_0000_truth.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Base GT 3H</span>
+                <audio controls src="./samples/baseline_gt_wer_bin_ich_0000.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 30min</span>
+                <audio controls src="./gt30_gt_wer_bin_ich_0000.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 15min</span>
+                <audio controls src="./gt15_gt_wer_bin_ich_0000.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT NativeNarrow 15min</span>
+                <audio controls src="./samples/Native15_wer_bin_ich_0000.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT ProficientWide 15min</span>
+                <audio controls src="./samples/Proficient15_gt_wer_bin_ich_0000.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Zero-shot</span>
+                <audio controls src="./zero_shot_gt_wer_bin_ich_0000.wav"></audio>
+            </div>
+            
+            <div class="lyrics">
+                <div class="lyrics-title">Lyrics:</div>
+                <!-- Add your lyrics content here -->
+                sieh mich horen niemals werde ich die perfekte braut
+                <!-- Example format:
+                Verse 1:
+                This is an example lyric line
+                Another example lyric line
+                
+                Chorus:
+                Example chorus line one
+                Example chorus line two
+                -->
+            </div>
+        </div>
+        
+        <div class="audio-container">
+            <h3>Sample 2</h3>
+            <div class="audio-row">
+                <span class="audio-label">Ground Truth</span>
+                <audio controls src="./samples/Proficient_fur_dich_13_truth.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Base GT 3H</span>
+                <audio controls src="./samples/baseline_Proficient15__fur_dich_13.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 30min</span>
+                <audio controls src="./samples/gt30_Proficient15_fur_dich_13.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 15min</span>
+                <audio controls src="./samples/gt15_Proficient15_fur_dich_13.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT NativeNarrow 15min</span>
+                <audio controls src="./samples/Native15_Proficient15__fur_dich_13.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT ProficientWide 15min</span>
+                <audio controls src="./samples/Proficient15_Proficient_fur_dich_13.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Zero-shot</span>
+                <audio controls src="./samples/zero_shot_Proficient_fur_dich_13.wav"></audio>
+            </div>
+            
+            <div class="lyrics">
+                <div class="lyrics-title">Lyrics:</div>
+                <!-- Add your lyrics content here -->
+                für dich dreh ich so lang an der erde bis du wieder bei mir bist
+            </div>
+        </div>
+        
+        <div class="audio-container">
+            <h3>Sample 3</h3>
+            <div class="audio-row">
+                <span class="audio-label">Ground Truth</span>
+                <audio controls src="./Native_wenn_sie_tanzt_2_truth.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Base GT 3H</span>
+                <audio controls src="./samples/baseline_Native_wenn_sie_tanzt_2.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 30min</span>
+                <audio controls src="./samples/gt30_Native_wenn_sie_tanzt_2.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 15min</span>
+                <audio controls src="./samples/gt15_Native_wenn_sie_tanzt_2.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT NativeNarrow 15min</span>
+                <audio controls src="./samples/Native15_Native_wenn_sie_tanzt_2.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT ProficientWide 15min</span>
+                <audio controls src="./samples/Proficient15_Native_wenn_sie_tanzt_2.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Zero-shot</span>
+                <audio controls src="./samples/zero_shot_Native_wenn_sie_tanzt_2.wav"></audio>
+            </div>
+            
+            <div class="lyrics">
+                <div class="lyrics-title">Lyrics:</div>
+                <!-- Add your lyrics content here -->
+                und wenn sie tanzt sieh wo an da zu dem moment
+            </div>
+        </div>
+    </div>
+    
+    <div class="audio-group">
+        <h2 class="group-title">Group 2: Vocals with Accompaniment</h2>
+        
+        <div class="audio-container">
+            <h3>Sample 4</h3>
+            <div class="audio-row">
+                <span class="audio-label">Ground Truth</span>
+                <audio controls src="./samples/Kaputt_truth.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Base GT 3H</span>
+                <audio controls src="./samples/kaputt_baseline.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 30min</span>
+                <audio controls src="./samples/kaputt_gt_30min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 15min</span>
+                <audio controls src="./samples/kaputt_gt_15min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT NativeNarrow 15min</span>
+                <audio controls src="./samples/kaputt_NativeNarrow_15min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT ProficientWide 15min</span>
+                <audio controls src="./samples/kaputt_ProficientWide_15min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Zero-shot</span>
+                <audio controls src="./samples/kaputt_zero_shot.wav"></audio>
+            </div>
+            
+            <div class="lyrics">
+                <div class="lyrics-title">Lyrics:</div>
+                <!-- Add your lyrics content here -->
+                und wenn ich dich frag was das hier für dich ist
+                mach ich dann alles kaputt mach ich dann alles kaputt
+                und wenn ich dir sag dass du viel mehr für mich bist mach ich dann alles kaputt mach ich dann alles kaputt
+                alles kaputt
+            </div>
+        </div>
+        
+        <div class="audio-container">
+            <h3>Sample 5</h3>
+            <div class="audio-row">
+                <span class="audio-label">Ground Truth</span>
+                <audio controls src="./samples/wie_schone_du_truth.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Base GT 3H</span>
+                <audio controls src="./samples/wie_schone_du_bist_gt_baseline.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 30min</span>
+                <audio controls src="./samples/wie_schone_du_bist_gt_30min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT GT 15min</span>
+                <audio controls src="./samples/wie_schone_du_bist_gt_15min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT NativeNarrow 15min</span>
+                <audio controls src="./samples/wie_schone_du_bist_NativeNarrow_15min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">FT ProficientWide 15min</span>
+                <audio controls src="./samples/wie_schone_du_bist_ProficientWide_15min.wav"></audio>
+            </div>
+            <div class="audio-row">
+                <span class="audio-label">Zero-shot</span>
+                <audio controls src="./samples/wie_schone_du_bist_zero_short.wav"></audio>
+            </div>
+            
+            <div class="lyrics">
+                <div class="lyrics-title">Lyrics:</div>
+                <!-- Add your lyrics content here -->
+                kann ich es sehen ich seh dich
+                mit all deinen farben und deinen narben hinter den mauern
+                ja ich seh dich lass dir nichts sagen nein lass dir nichts sagen 
+                weisst du denn gar nicht wie schön du bist
+            </div>
+        </div>
+    </div>
+    
+    <div class="model-descriptions">
+        <h2>Model Descriptions</h2>
+        <ul>
+            <li><strong>Ground Truth</strong>: Original human recordings</li>
+            <li><strong>Base GT 3H</strong>: Base model trained with 3 hours of ground truth data</li>
+            <li><strong>FT GT 30min</strong>: Fine-tuned model with 30 minutes of ground truth data</li>
+            <li><strong>FT GT 15min</strong>: Fine-tuned model with 15 minutes of ground truth data</li>
+            <li><strong>FT NativeNarrow 15min</strong>: Fine-tuned model with native voice characteristics and narrow pitch range (15min training)</li>
+            <li><strong>FT ProficientWide 15min</strong>: Fine-tuned model with professional singing style and wide pitch range (15min training)</li>
+            <li><strong>Zero-shot</strong>: Zero-shot singing voice synthesis from English model</li>
+        </ul>
+    </div>
+</body>
+</html>
