@@ -1,6 +1,6 @@
 ## About this Repository
 
-This repository is part of my master's thesis project. It is based on the official [OpenVPI DiffSinger](https://github.com/openvpi/DiffSinger) implementation. Demo in [Page]dongjiashu.github.io/DiffSinger/
+This repository is part of my master's thesis project. It is based on the official [OpenVPI DiffSinger](https://github.com/openvpi/DiffSinger) implementation. Demo in [Page](dongjiashu.github.io/DiffSinger/)
 
 In addition to reproducing and adapting the core DiffSinger model, this repo includes all scripts and resources used throughout my research pipeline. These include external tools, dependent repositories, and custom scripts located in the `user_script/` directory. While the main singing voice synthesis model comes from OpenVPI's DiffSinger, the end-to-end workflow and data processing were extended to suit the needs of my thesis experiments.
 
