@@ -6,7 +6,7 @@ In addition to reproducing and adapting the core DiffSinger model, this repo inc
 
 ### Thesis Topic
 
-This work explores phoneme-mapped cross-lingual transfer learning for singing voice synthesis (SVS), focusing on adapting an English-trained DiffSinger model to German using minimal target-language data. We focus on the **acoustic model** (not the variance model), and investigate how data quality—particularly accent, vocal range, and recording conditions—impacts low-resource SVS performance.
+This work explores phoneme-mapped cross-lingual transfer learning for singing voice synthesis (SVS), focusing on adapting an English-trained DiffSinger model to German using minimal target-language data. We focus on the **acoustic model** (not the variance model), and investigate how data quality—particularly accent, vocal range, and recording conditions—impacts low-resource SVS performance. Thesis can be found [here](https://campus-fryslan.studenttheses.ub.rug.nl/id/eprint/668).
 
 ### Installation
 
